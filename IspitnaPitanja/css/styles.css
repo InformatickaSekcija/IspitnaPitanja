@@ -6,15 +6,12 @@
 	
 }
 #menu > ul > li{
-	margin-top:20px;
-	color:black;
+
+	writing-mode:tb-rl;
 	float:left;
 	list-style:none;
-/*margin-left:20px;
-margin-right:20px;*/
 	font-size:15px;
 	padding:0;
-	/*transform:rotate(90deg)*/
 }
 a{
 	text-decoration:none;
@@ -22,5 +19,6 @@ a{
 }
 #menu > ul > li :hover{
 	color:red;
-	font-size:20px;
+
+    writing-mode:tb-rl;
 }
