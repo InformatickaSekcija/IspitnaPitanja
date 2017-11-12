@@ -3,21 +3,18 @@
 	
 	height:800px;
 	width:100%;
-	display:block;
 	
 }
 #menu > ul > li{
-
-
+	margin-top:20px;
+	color:black;
 	float:left;
 	list-style:none;
+/*margin-left:20px;
+margin-right:20px;*/
 	font-size:15px;
 	padding:0;
-	writing-mode:tb-rl;
-
-}
-#pitanja{
-	float:left;
+	/*transform:rotate(90deg)*/
 }
 a{
 	text-decoration:none;
@@ -25,5 +22,5 @@ a{
 }
 #menu > ul > li :hover{
 	color:red;
-
+	font-size:20px;
 }
