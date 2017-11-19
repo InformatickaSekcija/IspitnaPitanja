@@ -22,3 +22,8 @@ a{
 
     writing-mode:tb-rl;
 }
+div #menu, #pitanja{
+
+    width: 90%;
+	float:left;
+}
