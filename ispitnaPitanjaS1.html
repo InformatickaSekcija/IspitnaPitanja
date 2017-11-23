@@ -1,0 +1,142 @@
+﻿<html>
+
+<head>
+    <title>Ispitna pitanja</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script>
+        $(document).ready( function() {
+            $("#load_pitanja1").on("click", function() {
+                $("#pitanja").load("pages/Srpski.html");
+            });
+
+            $("#load_pitanja2").on("click", function() {
+                $("#pitanja").load("pages/Engleski.html");
+            });
+            $("#load_pitanja3").on("click", function() {
+                $("#pitanja").load("pages/Francuski.html");
+            });
+            $("#load_pitanja4").on("click", function() {
+                $("#pitanja").load("pages/Ruski.html");
+            });
+            $("#load_pitanja5").on("click", function() {
+                $("#pitanja").load("pages/Nemacki.html");
+            });
+            $("#load_pitanja6").on("click", function() {
+                $("#pitanja").load("pages/Italijanski.html");
+            });
+            $("#load_pitanja7").on("click", function() {
+                $("#pitanja").load("pages/Latinski.html");
+            });
+
+            $("#load_pitanja8").on("click", function() {
+                $("#pitanja").load("pages/Psihologija.html");
+            });
+
+            $("#load_pitanja9").on("click", function() {
+                $("#pitanja").load("pages/Filozofija.html");
+            });
+            $("#load_pitanja10").on("click", function() {
+                $("#pitanja").load("pages/Sociologija.html");
+            });
+            $("#load_pitanja11").on("click", function() {
+                $("#pitanja").load("pages/Ustav.html");
+            });
+            $("#load_pitanja12").on("click", function() {
+                $("#pitanja").load("pages/Istorija.html");
+            });
+            $("#load_pitanja13").on("click", function() {
+                $("#pitanja").load("pages/Geografija.html");
+            });
+            $("#load_pitanja14").on("click", function() {
+                $("#pitanja").load("pages/Biologija.html");
+            });
+
+            $("#load_pitanja15").on("click", function() {
+                $("#pitanja").load("pages/Matematika.html");
+            });
+            $("#load_pitanja16").on("click", function() {
+                $("#pitanja").load("pages/Fizika.html");
+            });
+            $("#load_pitanja17").on("click", function() {
+                $("#pitanja").load("pages/Hemija.html");
+            });
+            $("#load_pitanja18").on("click", function() {
+                $("#pitanja").load("pages/Informatika.html");
+            });
+            $("#load_pitanja19").on("click", function() {
+                $("#pitanja").load("pages/Muzicka.html");
+            });
+            $("#load_pitanja20").on("click", function() {
+                $("#pitanja").load("pages/Likovno.html");
+            });
+            $("#load_pitanja21").on("click", function() {
+                $("#pitanja").load("pages/Fizicko.html");
+            });
+
+        });
+    </script>
+    <script>
+        function openLeftMenu() {
+            document.getElementById("leviMeni").style.display = "block";
+        }
+        function closeleviMeni() {
+            document.getElementById("leviMeni").style.display = "none";
+        }
+
+
+    </script>
+</head>
+<body>
+    <div class="container " id="menu">
+        <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="leviMeni">
+            <button onclick="closeleviMeni()" class="w3-bar-item w3-button w3-large">Zatvori &times;</button>
+            <ul class="w3-ul w3-center w3-hoverable w3-blue w3-round-small">
+                <a href="#" id="load_pitanja1"><li> Српски језик</li></a>
+                <a href="#" id="load_pitanja2"><li>Енглески језик</li></a>
+                <a href="#" id="load_pitanja3"><li>Француски језик</li></a>
+                <a href="#" id="load_pitanja4"><li>Руски језик</li></a>
+                <a href="#" id="load_pitanja5"><li>Немачки језик</li></a>
+                <a href="#" id="load_pitanja6"><li>Италијански језик</li></a>
+                <a href="#" id="load_pitanja7"><li>Латински језик</li></a>
+                <a href="#" id="load_pitanja8"><li>Психологија</li></a>
+                <a href="#" id="load_pitanja9"><li>Филозофија</li></a>
+                <a href="#" id="load_pitanja10"><li>Социологија</li></a>
+                <a href="#" id="load_pitanja11"><li>Устав </li></a>
+
+                <a href="#" id="load_pitanja12"><li>Историја</li></a>
+                <a href="#" id="load_pitanja13"><li>Географија </li></a>
+                <a href="#" id="load_pitanja14"><li>Биологија </li></a>
+                <a href="#" id="load_pitanja15"><li>Математика </li></a>
+                <a href="#" id="load_pitanja16"><li>Физика</li></a>
+                <a href="#" id="load_pitanja17"><li>Хемија</li></a>
+                <a href="#" id="load_pitanja18"><li>Рачунарство</li></a>
+                <a href="#" id="load_pitanja19"><li>Музика култура</li></a>
+                <a href="#" id="load_pitanja20"><li>Ликовна култура</li></a>
+                <a href="#" id="load_pitanja21"><li>Физичко васпитање</li></a>
+            </ul>
+        </div>
+                
+        <div class="w3-teal">
+            <button class="w3-button w3-teal w3-xlarge w3-left" onclick="openLeftMenu()">&#9776;</button>
+            
+            <div class="w3-container">
+                <h1>Ispitna Pitanja</h1>
+            </div>
+        </div>
+
+        <div id="pitanja" class="w3-container">
+            <p>In this example, we demonstrate how to use two side navigations.</p>
+            <p>We have created two "menu" buttons: one to open the side navigation from the left and one to open it from the right.</p>
+        </div>
+           
+          </div>  
+</body>
+</html>
